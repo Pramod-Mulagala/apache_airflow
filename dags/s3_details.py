@@ -1,0 +1,5 @@
+# s3_details.py
+
+AWS_ACCESS_KEY_ID = 'AKIA47CR2V5AZOFWSOCU'
+AWS_SECRET_ACCESS_KEY = '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'
+BUCKET_NAME = 'storesales-airflow'
