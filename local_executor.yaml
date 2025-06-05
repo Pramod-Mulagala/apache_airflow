@@ -48,10 +48,6 @@ services:
       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
       - AIRFLOW__CORE__FERNET_KEY=81HqDtbqAywKSOumSha3BhWNOdQ26slT6K0YaZeZyPs=
       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
-      - AIRFLOW_CONN_AWS_DEFAULT=aws_access_key_id=AKIA47CR2V5AZOFWSOCU;aws_secret_access_key=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
-      - AWS_ACCESS_KEY_ID='AKIA47CR2V5AZOFWSOCU'
-      - AWS_SECRET_ACCESS_KEY='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'
-    volumes:
       - ./dags:/opt/airflow/dags
       - ./requirements.txt:/opt/airflow/requirements.txt
 
